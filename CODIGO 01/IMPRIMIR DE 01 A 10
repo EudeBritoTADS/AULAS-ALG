@@ -1,0 +1,16 @@
+programa
+{
+inteiro total
+//Imprimir de 01 a 10
+  funcao inicio()
+  {
+para(inteiro numero=1;numero<=10;numero++)
+{
+  total =+ numero
+  escreva("Número:", total,"\n")
+}
+//Escrever o total fora do loop
+escreva("\nTotal:", total)
+
+  }
+}
