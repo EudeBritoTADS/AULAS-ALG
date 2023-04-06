@@ -1,0 +1,14 @@
+programa
+{
+  inteiro total
+//Imprimir ímpares de 01 a 10
+  funcao inicio()
+  {
+    para(inteiro numero=1;numero<10;numero++)
+      {
+        total = numero++
+        escreva("Número:", total,"\n")
+      }
+  escreva("\nTotal:", total)
+  }
+}
